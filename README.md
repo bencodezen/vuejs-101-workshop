@@ -7,6 +7,7 @@ This repo contains all the course material for Vue.js 101 Tutorial.
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
+- [Vue.js DevTools](https://github.com/vuejs/vue-devtools) (Recommended)
 
 ### Instructions
 
@@ -24,3 +25,4 @@ npm run build
 ## Resources
 
 - Speaker: [@bencodezen](https://www.twitter.com/bencodezen)
+- Slides: [Vue.js 101 Tutorial Slides](https://slides.com/bencodezen/vuejs-101-tutorial/)
