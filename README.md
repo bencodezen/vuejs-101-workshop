@@ -12,8 +12,26 @@ Join me for a hands-on deep dive into Vue.js. You’ll start from a bare-bones H
 
 Topics include:
 
-* Vue.js overview
-* How Vue.js compares to frameworks like React and Angular
-* Why you should use it
-* Vue.js essential concepts
-* Getting started
+- Vue.js overview
+- How Vue.js compares to frameworks like React and Angular
+- Why you should use it
+- Vue.js essential concepts
+- Getting started
+
+## Build Setup
+
+```bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
