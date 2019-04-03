@@ -24,3 +24,11 @@ button {
   font-size: 1rem;
   padding: 10px;
 }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
