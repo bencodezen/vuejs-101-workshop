@@ -1,0 +1,26 @@
+.counter {
+  border: 3px solid #222;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  background: #eee;
+  box-sizing: border-box;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: block;
+  margin-top: 30px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px;
+}
