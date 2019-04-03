@@ -1,0 +1,55 @@
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vue.js 101 Workshop: Harry Potter World Exercise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="harry-potter-world.css" />
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script> -->
+  <script src="../vue.min.js"></script>
+</head>
+
+<body>
+  <div class="diagon-alley">
+    <div class="parchment">
+      <h1>Static Name</h1>
+      <h2>House:</h2>
+      <p>Static House</p>
+      <!-- House Options:
+        Gryffindor
+        Ravenclaw
+        Slytherin
+        Hufflepuff
+      -->
+      <h2>Wand:</h2>
+      <p>Static Wand</p>
+      <!-- Wand Options:
+        11" holly, phoenix feather, nice and supple
+        10¾", vine, dragon heartstring
+        10¼", hornbeam, dragon heartstring, quite rigid
+        10", hawthorn, unicorn hair, reasonably springy
+        12", ash, unicorn hair
+        13½", yew, phoenix feather
+        9½", rosewood, Veela hair, Inflexible
+      -->
+      <h2>Wallet</h2>
+      <ul class="wallet">
+        <li>Galleons: 12</li>
+        <li>Sickles: 38</li>
+        <li>Knuts: 274</li>
+      </ul>
+      <div class="parchment__cta">
+        <button>Visit Gringotts</button>
+        <button>Visit Diagon Alley</button>
+        <button>Drink Butterbeer</button>
+        <button>Eat at The Leaky Cauldron</button>
+      </div>
+    </div>
+    <div id="gringotts" class="gringotts" />
+  </div>
+</body>
+
+</html>
