@@ -66,9 +66,9 @@ p { color: #222 }
   line-height: 2;
 }
 
-.wallet.Galleons { color: gold; }
-.wallet.Sickles { color: silver; }
-.wallet.Knuts { color: #CD7F32; }
+.wallet .Galleons { color: gold; }
+.wallet .Sickles { color: silver; }
+.wallet .Knuts { color: #CD7F32; }
 
 button {
   font-family: 'Berkshire Swash', cursive;
