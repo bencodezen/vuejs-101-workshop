@@ -26,7 +26,7 @@
         <div>
           <div>
             <strong>Real Name</strong>
-            <p>{{ firstName }} {{ lastName }}</p>
+            <p>{{ fullName }}</p>
           </div>
           <div>
             <strong>Height</strong>
@@ -69,7 +69,7 @@
             <strong>Movie Description</strong>
             <p>Set in the 1990s, Marvel Studios’ is an all-new adventure from a previously unseen period in the history of
               the Marvel
-              Cinematic Universe that follows the journey of {{ firstName }} {{ lastName }} as she becomes one of the universe’s most
+              Cinematic Universe that follows the journey of {{ fullName }} as she becomes one of the universe’s most
               powerful heroes.
               While a galactic war between two alien races reaches Earth, {{ lastName }} finds herself and a small cadre of
               allies at the
@@ -87,6 +87,11 @@
         heroName: 'Captain Marvel',
         firstName: 'Carol',
         lastName: 'Danvers'
+      },
+      computed: {
+        fullName() {
+          return this.firstName + ' ' + this.lastName 
+        }
       }
     })
   </script>
