@@ -13,19 +13,26 @@ h1 {
 
 strong {
   font-family: 'Bangers';
-  font-size: 1.5rem;
-  color: rgb(250, 64, 64);
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: yellow;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 
 .data {
   max-width: 80%;
-  columns: 2;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+ .data {
+   grid-template-columns: 1fr 1fr;
+ }
 }
 
 .hero {
@@ -40,8 +47,8 @@ p {
 
 .logo {
   display: block;
-  margin-right: 30px;
   font-size: 5rem;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -53,5 +60,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.title-row {
+  display: flex;
   align-items: center;
 }
