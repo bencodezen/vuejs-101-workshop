@@ -19,7 +19,7 @@
     <div class="wrapper">
       <div class="title-row">
         <img src="./capFigure.gif" alt="">
-        <h1 class="logo">{{ heroName }}</h1>
+        <h1 class="logo">{{ heroName }} </h1>
         <img src="./capFigure.gif" alt="">
       </div>
       <section class="data">
@@ -67,7 +67,7 @@
           </div>
           <div>
             <strong>Movie Description</strong>
-            <p>Set in the 1990s, Marvel Studios’ is an all-new adventure from a previously unseen period in the history of
+            <p>Set in the 1990s, {{ yearsAgo(1990) }} years ago, Marvel Studios’ is an all-new adventure from a previously unseen period in the history of
               the Marvel
               Cinematic Universe that follows the journey of {{ fullName }} as she becomes one of the universe’s most
               powerful heroes.
@@ -91,6 +91,11 @@
       computed: {
         fullName() {
           return this.firstName + ' ' + this.lastName 
+        }
+      },
+      methods: {
+        yearsAgo(year) {
+          return 2019 - Number(year) 
         }
       }
     })
